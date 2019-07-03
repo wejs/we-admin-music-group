@@ -1,7 +1,7 @@
 {
   "name": "gp-admin",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "We.js admin to be served at /admin url",
   "directories": {
     "doc": "doc",
