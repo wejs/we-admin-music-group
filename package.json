@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "rm -rf ../../server/site/client/admin/prod dist tmp && ember build  --environment production && cp -r dist ../../server/site/client/admin/prod",
+    "build": "rm -rf dist tmp && ember build  --environment production",
     "start": "API_HOST='http://localhost:4050' ember serve",
     "test": "ember test",
     "test-server": "NODE_ENV=test LOG_LV=info ./node_modules/.bin/mocha test/bootstrap.js test/**/*.test.js",

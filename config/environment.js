@@ -70,12 +70,12 @@ module.exports = function(environment) {
         linkTo: 'index',
         permission: true
       },
-      {
-        icon: '<i class="fa fa-product-hunt" aria-hidden="true"></i>',
-        text: 'Projetos',
-        linkTo: 'projects.index',
-        permission: 'create_projects'
-      },
+      // {
+      //   icon: '<i class="fa fa-product-hunt" aria-hidden="true"></i>',
+      //   text: 'Projetos',
+      //   linkTo: 'projects.index',
+      //   permission: 'create_projects'
+      // },
       {
         icon: '<i class="fa fa-rss" aria-hidden="true"></i>',
         text: 'Notícias',
