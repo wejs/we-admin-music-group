@@ -1,7 +1,7 @@
 {
   "name": "we-admin-music-group",
   "private": true,
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "We.js admin to music groups projects",
   "directories": {
     "doc": "doc",
