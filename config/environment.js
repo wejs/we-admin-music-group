@@ -1,7 +1,7 @@
 /* jshint node: true */
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'gp-admin',
+    modulePrefix: 'we-admin-music-group',
     environment: environment,
     rootURL: '/admin/',
     locationType: 'hash',
