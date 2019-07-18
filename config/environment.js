@@ -70,12 +70,6 @@ module.exports = function(environment) {
         linkTo: 'index',
         permission: true
       },
-      // {
-      //   icon: '<i class="fa fa-product-hunt" aria-hidden="true"></i>',
-      //   text: 'Projetos',
-      //   linkTo: 'projects.index',
-      //   permission: 'create_projects'
-      // },
       {
         icon: '<i class="fa fa-rss" aria-hidden="true"></i>',
         text: 'Notícias',
@@ -87,6 +81,12 @@ module.exports = function(environment) {
         text: 'Galerias',
         linkTo: 'gallery.index',
         permission: 'create_gallery'
+      },
+      {
+        icon: '<i class="fa fa-product-hunt" aria-hidden="true"></i>',
+        text: 'Portifólio',
+        linkTo: 'portfolio.index',
+        permission: 'create_portfolio'
       },
       {
         icon: '<i class="fa fa-file-text"></i>',

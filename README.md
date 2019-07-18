@@ -1,20 +1,15 @@
-# Administrator (gp-admin)
+# we-admin-music-group
 
-Blog administrator project that add one Ember.js SPA in We.js projects with one simple command.
-
-This project adds the /admin route with the new Ember.js SPA
+We.js admin for music group projects
 
 ## Requirement
-
-- One We.js blog project
-- we-plugin-user installed
 
 ## Instalation
 
 In your We.js project root folder tip:
 
 ```sh
-we i we-admin-blog
+we i we-admin-music-group
 ```
 
 ## Example:

@@ -23,20 +23,20 @@ Router.map(function() {
     });
   });
 
-  this.route('projects', function() {
-    this.route('create');
-    this.route('item', { path: ':id' }, function(){
-
-    });
-  });
-
-
   this.route('news', function() {
     this.route('create');
     this.route('item', { path: ':id' }, function(){
 
     });
   });
+
+  this.route('portfolio', function() {
+    this.route('create');
+    this.route('item', { path: ':id' }, function(){
+
+    });
+  });
+
 
   this.route('gallery', function() {
     this.route('create');
