@@ -95,6 +95,12 @@ module.exports = function(environment) {
         permission: 'create_content'
       },
       {
+        icon: '<i class="fa fa-tasks" aria-hidden="true"></i>',
+        text: 'Projetos',
+        linkTo: 'mg-projects.index',
+        permission: 'create_project'
+      },
+      {
         icon: '<i class="fa fa-slideshare"></i>',
         text: 'Slideshow',
         linkTo: 'slides.index',
