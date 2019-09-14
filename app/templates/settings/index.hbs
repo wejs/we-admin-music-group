@@ -36,6 +36,13 @@
             </div>
 
             <div class="form-group">
+              <label>Título da página de contato:</label>
+              {{input value=model.settings.siteContactTitle class="form-control" name="siteContactTitle"}}
+              <p class="help-block">Título que aparece na página /site-contact.</p>
+            </div>
+
+
+            <div class="form-group">
               <label>Subtítulo do site:</label>
               {{input value=model.settings.subTitle class="form-control" name="subTitle"}}
               <p class="help-block">Subtítulo que normalmente é exibido abaixo do título do site caso o tema suporte um subtítulo.</p>
